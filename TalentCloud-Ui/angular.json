@@ -1,0 +1,82 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "1e1de97b-a744-405a-8b5a-0397bb3d01ce"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "demo": {
+      "architect": {
+        "build": {
+          "builder": "@angular/build:application",
+          "configurations": {
+            "development": {
+              "extractLicenses": false,
+              "namedChunks": true,
+              "optimization": false,
+              "sourceMap": true
+            },
+            "production": {
+              "aot": true,
+              "extractLicenses": true,
+              "namedChunks": false,
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false
+            }
+          },
+          "options": {
+            "assets": ["src/fulllogo_transparent_nobuffer.ico",
+          "src/assets"],
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "outputPath": "dist/demo",
+            "polyfills": ["zone.js"],
+
+            "scripts": [          "src/assets/js/jquery-3.6.0.min.js",
+            "src/assets/js/popper.min.js",
+            "src/assets/js/slick.js",
+            "src/assets/js/custom-slick.js",
+            "src/assets/js/counter.js",
+            "src/assets/js/feather.min.js",
+            "src/assets/js/popover.js",
+            "src/assets/js/emojionearea.min.js",
+            "src/assets/js/bootstrap.js",
+            "src/assets/js/lazysizes.min.js",
+            "src/assets/js/fare-calender/main.js",
+            "src/assets/js/fare-calender/main_1.js",
+            "src/assets/js/fare-calender/calender-data.js",
+            "src/assets/js/chatbox.js",
+            "src/assets/js/script.js",
+            "src/assets/js/theme-setting.js"],
+            "styles": [ "src/styles.scss",
+            "src/assets/css/style.css",
+            "node_modules/devextreme/dist/css/dx.light.css"
+  
+  ,"src/global_styles.css"],
+            "tsConfig": "tsconfig.app.json"
+          }
+        },
+        "serve": {
+          "builder": "@angular/build:dev-server",
+          "configurations": {
+            "development": {
+              "buildTarget": "demo:build:development"
+            },
+            "production": {
+              "buildTarget": "demo:build:production",      "proxyConfig": "proxy.conf.json"
+
+            }
+          },
+          "defaultConfiguration": "development"
+        }
+      },
+      "prefix": "app",
+      "projectType": "application",
+      "root": "",
+      "schematics": {},
+      "sourceRoot": "src"
+    }
+  },
+  "version": 1
+}

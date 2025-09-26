@@ -1,0 +1,31 @@
+<div class="about-profile section-b-space">
+  <div class="card-title">
+    <h3>💼 Professional Experience</h3>
+    <div class="settings">
+      <div class="setting-btn">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#editProfile">
+          <i class="icon icon-dark stroke-width-3 iw-11 ih-11"
+             data-feather="edit-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <ul class="about-list">
+    <li *ngFor="let exp of experienceFields" (dblclick)="editField(exp.key)">
+      <h5 class="title">{{ exp.label }}:</h5>
+
+      <div *ngIf="editingField === exp.key; else staticText">
+        <input
+          type="text"
+          [(ngModel)]="exp.value"
+          (blur)="saveField()"
+          class="form-control"
+        />
+      </div>
+
+      <ng-template #staticText>
+        <h6 class="content">{{ exp.value }}</h6>
+      </ng-template>
+    </li>
+  </ul>
+</div>

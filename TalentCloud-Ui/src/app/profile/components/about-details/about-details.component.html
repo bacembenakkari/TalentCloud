@@ -1,0 +1,117 @@
+<div class="profile-about sticky-top">
+  <div class="card-title">
+    <h3>about</h3>
+    <h5>intro my self</h5>
+    <div class="settings">
+      <div class="setting-btn">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#editProfile">
+          <i class="icon icon-dark stroke-width-3 iw-11 ih-11"
+             data-feather="edit-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="about-content">
+    <ul>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="user"></i>
+        </div>
+        <div class="details">
+          <h5>About</h5>
+          <h6>{{ profileData.about }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <svg class="iw-18 ih-18">
+            <use xlink:href="../assets/svg/icons.svg#cake"></use>
+          </svg>
+        </div>
+        <div class="details">
+          <h5>Date of Birth</h5>
+          <h6>{{ profileData.dateOfBirth }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="phone"></i>
+        </div>
+        <div class="details">
+          <h5>Phone</h5>
+          <h6>{{ profileData.phone }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="user"></i>
+        </div>
+        <div class="details">
+          <h5>Gender</h5>
+          <h6>{{ profileData.gender }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="heart"></i>
+        </div>
+        <div class="details">
+          <h5>LinkedIn / Portfolio Link</h5>
+          <h6>{{ profileData.linkedinUrl }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="map-pin"></i>
+        </div>
+        <div class="details">
+          <h5>Address / Location</h5>
+          <h6>{{ profileData.location }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="mail"></i>
+        </div>
+        <div class="details">
+          <h5>Email Address</h5>
+          <h6>{{ profileData.email }}</h6>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="iw-18 ih-18" data-feather="at-sign"></i>
+        </div>
+        <div class="details">
+          <h5>Portfolio Link</h5>
+          <h6>{{ profileData.portfolioUrl }}</h6>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="about-footer">
+    <ul>
+      <li class="fb">
+        <a href="#">
+          <svg>
+            <use xlink:href="../assets/svg/icons.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="tw">
+        <a href="#">
+          <svg>
+            <use xlink:href="../assets/svg/icons.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="wa">
+        <a href="#">
+          <svg>
+            <use xlink:href="../assets/svg/icons.svg#whatsapp"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

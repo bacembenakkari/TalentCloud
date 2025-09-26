@@ -1,0 +1,94 @@
+[NX Daemon Server] - 2025-05-03T17:53:16.511Z - Started listening on: \\.\pipe\nx\C:\Users\user\AppData\Local\Temp\bfc2ed4e219ed4a134e6\d.sock
+[NX Daemon Server] - 2025-05-03T17:53:16.516Z - [WATCHER]: Subscribed to changes within: C:\Users\user\Desktop\profile\project (native)
+[NX Daemon Server] - 2025-05-03T17:53:16.520Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-03T17:53:16.523Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-05-03T17:53:16.524Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-03T17:53:16.527Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-05-03T17:53:16.612Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-05-03T17:53:16.612Z - [REQUEST]: 
+[NX Daemon Server] - 2025-05-03T17:53:16.612Z - [REQUEST]: 
+[NX Daemon Server] - 2025-05-03T17:53:17.052Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-05-03T17:53:17.054Z - Time taken for 'total for creating and serializing project graph' 525.6099999999999ms
+[NX Daemon Server] - 2025-05-03T17:53:17.055Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-05-03T17:53:17.055Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 526. Response time: 3.
+[NX Daemon Server] - 2025-05-03T17:53:17.097Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-05-03T17:53:17.097Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-05-03T17:53:17.097Z - Handled HASH_TASKS. Handling time: 18. Response time: 0.
+[NX Daemon Server] - 2025-05-03T17:53:18.351Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-05-03T17:53:18.351Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-03T17:53:18.352Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-05-03T17:53:18.355Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-05-03T17:53:18.356Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-05-03T17:53:18.356Z - Time taken for 'total for creating and serializing project graph' 0.2074999999999818ms
+[NX Daemon Server] - 2025-05-03T17:53:18.358Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-05-03T17:53:18.358Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-05-03T17:53:24.037Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T17:53:26.574Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T17:53:26.650Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T17:53:32.015Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T17:53:32.091Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T17:53:32.471Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T17:53:32.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T18:14:54.340Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-03T18:14:54.363Z - [WATCHER]: .postcssrc.json was created or restored
+[NX Daemon Server] - 2025-05-03T18:14:54.479Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-05-03T18:14:54.479Z - [REQUEST]: .postcssrc.json
+[NX Daemon Server] - 2025-05-03T18:14:54.479Z - [REQUEST]: 
+[NX Daemon Server] - 2025-05-03T18:14:54.583Z - Error detected when creating a project graph: Failed to process project dependencies with "nx/js/dependencies-and-lockfile".
+"Unable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-B4AXUQYK.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-HZ3H76ZD.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-J2EGN7K4.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-KVRF7TFS.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-YYMSYE3S.js: Le fichier spécifié est introuvable. (os error 2)"
+[NX Daemon Server] - 2025-05-03T18:14:54.584Z - Time taken for 'hash changed files from watcher' 3.2657000001054257ms
+[NX Daemon Server] - 2025-05-03T21:50:32.302Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2025-05-04T00:50:32.338Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2025-05-04T11:55:47.720Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2025-05-04T14:55:47.840Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2025-05-04T15:01:42.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-04T15:01:43.015Z - [WATCHER]: src/app/profile/profile.routes.ts was modified
+[NX Daemon Server] - 2025-05-04T15:01:43.237Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-05-04T15:01:43.238Z - [REQUEST]: src/app/profile/profile.routes.ts
+[NX Daemon Server] - 2025-05-04T15:01:43.238Z - [REQUEST]: 
+[NX Daemon Server] - 2025-05-04T15:01:43.475Z - Error detected when creating a project graph: Failed to process project dependencies with "nx/js/dependencies-and-lockfile".
+"Unable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-B4AXUQYK.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-HZ3H76ZD.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-J2EGN7K4.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-KVRF7TFS.js: Le fichier spécifié est introuvable. (os error 2)\nUnable to load C:\\Users\\user\\Desktop\\profile\\project\\.angular\\cache\\19.2.10\\demo\\vite\\deps\\chunk-YYMSYE3S.js: Le fichier spécifié est introuvable. (os error 2)"
+[NX Daemon Server] - 2025-05-04T15:01:43.476Z - Time taken for 'hash changed files from watcher' 11.294700011610985ms
+[NX Daemon Server] - 2025-05-04T15:01:46.292Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:39:59.629Z - Started listening on: \\.\pipe\nx\C:\Users\user\AppData\Local\Temp\bfd1428ab381cfc8e009\d.sock
+[NX Daemon Server] - 2025-05-12T13:39:59.638Z - [WATCHER]: Subscribed to changes within: C:\Users\user\Desktop\mercredi\project (native)
+[NX Daemon Server] - 2025-05-12T13:39:59.653Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-12T13:39:59.658Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-05-12T13:39:59.659Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-12T13:39:59.663Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-05-12T13:39:59.687Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-05-12T13:39:59.688Z - [REQUEST]: 
+[NX Daemon Server] - 2025-05-12T13:39:59.688Z - [REQUEST]: 
+[NX Daemon Server] - 2025-05-12T13:40:00.451Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-05-12T13:40:00.453Z - Time taken for 'total for creating and serializing project graph' 788.8302ms
+[NX Daemon Server] - 2025-05-12T13:40:00.454Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-05-12T13:40:00.455Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 789. Response time: 4.
+[NX Daemon Server] - 2025-05-12T13:40:00.532Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-05-12T13:40:00.533Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-05-12T13:40:00.533Z - Handled HASH_TASKS. Handling time: 24. Response time: 1.
+[NX Daemon Server] - 2025-05-12T13:40:02.615Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-05-12T13:40:02.616Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-12T13:40:02.617Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-05-12T13:40:02.621Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-05-12T13:40:02.621Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-05-12T13:40:02.624Z - Time taken for 'total for creating and serializing project graph' 0.30780000000004293ms
+[NX Daemon Server] - 2025-05-12T13:40:02.627Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-05-12T13:40:02.627Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2025-05-12T13:40:15.670Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:19.435Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:19.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:27.980Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.100Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.154Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.216Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.421Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.583Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:40:28.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-05-12T13:41:02.459Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-12T13:41:02.473Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-05-12T20:07:20.377Z - [WATCHER]: Stopping the watcher for C:\Users\user\Desktop\mercredi\project (sources)
+[NX Daemon Server] - 2025-05-12T20:07:20.420Z - [WATCHER]: Stopping the watcher for C:\Users\user\Desktop\mercredi\project (outputs)
+[NX Daemon Server] - 2025-05-12T20:07:20.420Z - Server stopped because: "10800000ms of inactivity"

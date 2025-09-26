@@ -1,0 +1,29 @@
+{
+  "name": "auth-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "auth-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "auth-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "auth:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "auth:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "auth:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["auth"]
+}
